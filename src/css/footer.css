@@ -1,0 +1,12 @@
+#credits {
+  margin-block: 64px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 4px;
+
+  img {
+    max-width: 14px;
+    line-height: 0;
+  }
+}

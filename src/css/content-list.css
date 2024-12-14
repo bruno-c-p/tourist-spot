@@ -1,0 +1,75 @@
+#content-list {
+  margin-top: 48px;
+  padding-top: 64px;
+  border-top: 1px solid var(--border-primary);
+
+  #title-list {
+    h2 {
+      font: var(--font-h2);
+      margin-top: 4px;
+    }
+    p {
+      margin-top: 8px;
+    }
+  }
+
+  #list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 64px;
+    margin-bottom: 40px;
+
+    .card-travel {
+      img {
+        max-height: 350px;
+        object-fit: cover;
+      }
+
+      .content-card {
+        margin-top: 20px;
+
+        h3 {
+          font: var(--font-h3);
+        }
+
+        p {
+          margin-top: 4px;
+        }
+
+        strong {
+          display: block;
+          margin-top: 16px;
+        }
+
+        ul {
+          list-style-type: disc;
+          list-style-position: inside;
+          font: var(--font-headline);
+
+          li.history {
+            color: var(--accent-blue);
+          }
+
+          li.couples {
+            color: var(--accent-purple);
+          }
+
+          li.families {
+            color: var(--accent-pink);
+          }
+
+          li.budget {
+            color: var(--accent-orange);
+          }
+        }
+      }
+    }
+  }
+
+  #description {
+    padding-top: 40px;
+    border-top: 1px solid var(--border-primary);
+    text-align: center;
+  }
+}
